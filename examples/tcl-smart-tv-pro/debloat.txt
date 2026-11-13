@@ -1,0 +1,78 @@
+# TCL Smart TV Pro (BeyondTV4)
+# Android 11 (SDK 30), firmware RP1A.200622.001
+# Stock launcher: com.google.android.apps.tv.launcherx (Google TV)
+#
+# Kept: Netflix, YouTube, Prime Video, iBo Pro Smart Player,
+#       Chromecast built-in, Google Assistant, TCL T-Solo,
+#       firmware updater (com.tcl.versionUpdateApp)
+
+# --- TCL telemetry and analytics ---
+com.tcl.bi                          # TCL business intelligence / analytics
+com.tcl.usercenter                  # TCL user account center
+com.tcl.logkit                      # TCL diagnostic logging
+com.tcl.guard                       # TCL device guard / monitoring
+com.tcl.system.server               # TCL system background server
+com.tcl.useragreement               # TCL EULA screen (not needed after setup)
+com.tcl.partnercustomizer           # TCL partner content customizer
+com.tcl.autopair                    # TCL auto-pairing service
+
+# --- Sponsored content and recommendation rows ---
+com.tcl.channelplus                 # TCL Channel+ sponsored content rows
+com.tcl.waterfall.overseas          # TCL Waterfall content feed
+com.tcl.overseasappshow             # TCL app promotion service
+com.tcl.tclchannel.overlay          # TCL channel overlay
+com.tcl.tv.tclhome_passive          # TCL passive home content
+com.tcl.dashboard                   # TCL dashboard widget
+com.tcl.messagebox                  # TCL push notifications
+com.tcl.suspension                  # TCL floating popup overlay
+
+# --- Unnecessary preloaded apps ---
+com.tcl.esticker                    # TCL screensaver stickers
+com.tcl.browser                     # TCL browser
+com.tcl.gallery                     # TCL photo gallery
+com.tcl.gamebar                     # TCL game bar overlay
+com.tcl.ocean.instructions          # TCL setup instructions
+com.tcl.initsetup                   # TCL initial setup wizard
+com.tcl.ui_mediaCenter              # TCL media center
+com.tcl.ttvs                        # TCL TV services
+com.tcl.magiconnectfree             # TCL MagiConnect phone mirroring
+com.android.messaging               # Stock messaging (TVs don't text)
+com.android.camera2                 # Stock camera (no camera on TV)
+com.android.hotspot2.osulogin       # Hotspot 2.0 (enterprise Wi-Fi)
+com.android.printspooler            # Print spooler
+com.android.dreams.basic            # Basic screensaver (replaced by launcher clock)
+org.chromium.webview_shell           # WebView test shell
+com.offshore.pikachu                # Preloaded game
+com.tvos                            # TCL TVOS overlay
+
+# --- Unwanted TCL services ---
+com.tcl.hearaid                     # TCL hearing aid (not requested)
+com.tcl.assistant                   # TCL assistant (keeping Google Assistant)
+com.tcl.smartalexa                  # TCL Alexa integration
+
+# --- Google TV bloat ---
+android.autoinstalls.config.google.gtvpai  # Google TV auto-install config
+com.google.android.videos           # Google TV movies store
+com.google.android.play.games       # Google Play Games
+com.google.android.apps.tv.dreamx   # Google TV screensaver
+
+# --- Unused streaming apps ---
+com.disney.disneyplus               # Disney+
+com.disneyplus.mea                  # Disney+ MEA
+com.apple.atve.androidtv.appletv    # Apple TV+
+com.hulu.livingroomplus             # Hulu
+com.wbd.stream                      # Max (HBO)
+com.tubitv                          # Tubi
+com.osn.go                          # OSN+
+net.mbc.shahidTV                    # Shahid
+net.aljazeera.english               # Al Jazeera
+com.espn.score_center               # ESPN
+com.iqiyi.i18n.tv                   # iQIYI
+com.google.android.youtube.tvmusic   # YouTube Music
+com.google.android.youtube.tvunplugged # YouTube TV
+com.instantbits.cast.receiver       # Web Video Caster
+org.videolan.vlc                    # VLC
+
+# --- Disabled AFTER new launcher is Home ---
+com.google.android.apps.tv.launcherx      # Google TV stock launcher
+com.google.android.tungsten.setupwraith    # Google TV setup wizard (Wi-Fi is system-owned, safe)

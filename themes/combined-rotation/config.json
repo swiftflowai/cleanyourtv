@@ -1,0 +1,9 @@
+{
+  "background_color": "#070A14",
+  "wallpaper": true,
+  "wallpaper_rotation_minutes": 5,
+  "wallpaper_order": "shuffle",
+  "wallpaper_dim": 30,
+  "dock_glass": true,
+  "dock_opacity": 70
+}
